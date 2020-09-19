@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+.container {
+    //position:relative;
+    height: 100vh;
+    width:100%;
+    background-image: url('yumeko1.jpg');
+    background-position: 75% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 808px;
+    height: 612px;
+    // margin :0 auto;
+    margin-left: 100px;
+    border: 3px solid black;
+    margin-top: 50px;
+}
+h1{
+   margin-left:100px;
+    margin-top:100px;
+    font-weight:bold;
+    font-family:Arial;
+    font-size:5rem;
+    color:white;
+}
+h3{
+   
+    font-size:3rem;
+    color:white;
+}
+h2 {
+    font-size: 5rem;
+    color: white;
+}
+
+
+.rules {
+    
+    text-align: center;
+    font-size:20px;
+    width:50%;
+    height:300px;
+  
+    display:inline-block;
+    padding:40px;
+    color:white;
+ }
+
+
